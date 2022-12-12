@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Honoré Raballand</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+  
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js">
+	    import welcome from '$lib/images/svelte-welcome.webp';
+	    import welcome_fallback from '$lib/images/svelte-welcome.png';
+	    import './styles.css';
+    </script>
+  </head>
+  
+  <body>
+
+    <main>
+      <div class="square">
+        
+        <nav>
+          <a class="boutonmobile" href="javascript: affichemasque('menu');">&#x2630;</a>
+          <ul id="menu">
+            <li><a href="/" aria-current="page">My profil</a></li>
+            <li><a href="/works.html">Works</a></li>
+          </ul>
+        </nav>
+
+        <div class="profil">
+          <div class="photo">
+          </div>
+          <div class="info">
+            <h1>Honoré Raballand</h1>
+            <h2>French Engineer Student</h2>
+            <div class="items">
+              <img id="item" src="https://f.hellowork.com/blogdumoderateur/2019/10/gmail-dark.png">
+            </div>
+            <div class="items">
+              <p>honore.raballand.23@eigsi.fr</p>
+            </div>
+            <div class="items">
+              <img id="item" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUviw-JyYj8eXr-pRq8A3_wHWMrVtlDih2gg&usqp=CAU">
+            </div>
+            <div class="items">
+              <p>+33 6 38 89 32 76</p>
+            </div>
+            <button><a href="https://www.linkedin.com/in/honor%C3%A9-raballand-0170841b7/">LINKEDIN</a></button>
+          </div>
+        </div>
+
+        <div class="aboutme">
+          <h1>About Me</h1>
+          <p>I am in Engineering School in industrial systems at EIGSI La Rochelle in France.</p>
+          <p>Looking for a final year intership for january 2023</p>
+          <br>
+          <h2>AGE............................................................................................23</h2>
+          <h2>RESIDENCE..............................................................France</h2>
+          <h2>ADRESS..................Rue de la Gloire, La Rochelle</h2>
+    
+          <h1>Hobbies</h1>
+          <div class ="hobbies">
+            <div class ="bball">
+              <h3>Basketball</h3>
+              <p>16 years in departmental, regional and university competition recently as a captain.</p>
+            </div>
+            <div class ="mecanicSports">
+              <h3>Mecanic Sports</h3>
+              <p>Passionate about motor sports, especially the Championship of F1.</p>
+            </div>
+            <div class ="travels">
+              <h3>Travels</h3>
+              <p>Likes to discover new cultures, I travel in many european country.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="social">
+        <img id="imgsocial" src="http://www.oenodyssee.fr/wp-content/uploads/2017/10/linkedin.png">
+      </div>
+      <div class="social">
+        <p>Linkedin</p>
+      </div>
+      <div class="social">
+        <img id="imgsocial" src="https://f.hellowork.com/blogdumoderateur/2019/10/gmail-dark.png">
+      </div>
+      <div class="social">
+        <p>Gmail</p>
+      </div>
+    </div>
+
+    </main>
+  </body>
+</html>
